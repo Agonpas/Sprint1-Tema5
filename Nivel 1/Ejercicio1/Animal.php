@@ -1,5 +1,5 @@
 <?php
-class Animal {
+abstract class Animal {
     /*atributos*/
     protected $nombre;
     /*constructor*/
@@ -14,9 +14,8 @@ class Animal {
     public function getNombre() {
         return $this->nombre;
     }
-    public function hablar() {
+    abstract public function hablar();
 
-    }
 }
 
 ?>
