@@ -1,6 +1,6 @@
 <?php
 /* creamos la clase y damos los atributos base y altura*/
-class Shape implements ShapeInterficie{
+class Shape {
     protected $base;
     protected $altura;
     /*__construct es un método especial que se aplica por defecto al instanciar un objeto de la clase*/
@@ -22,9 +22,6 @@ class Shape implements ShapeInterficie{
     public function getAltura(){
         return $this->altura;
     }
-    /* creamos el metodo area es un metodo abstracto, es común a las subclases pero se implementa de forma diferente en cada una*/
-    public function area(){
-        return 0;
-    }
+   
 }
 ?>
