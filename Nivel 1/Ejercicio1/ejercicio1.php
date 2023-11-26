@@ -1,4 +1,4 @@
-<?
+<?php
 include_once 'Gato.php'; //llamamos a la familia gato
 include_once 'Perro.php'; // llamammos a la familia perro
 
