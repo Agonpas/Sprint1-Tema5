@@ -3,7 +3,7 @@
 require_once 'ShapeInterficie.php';
 require_once 'Shape.php';
 
-class Circulo extends Shape {
+class Circulo extends Shape implements ShapeInterficie {
     public function __construct($base) {
         $this->base = $base;
     }
